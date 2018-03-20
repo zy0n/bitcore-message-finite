@@ -1,0 +1,33 @@
+{
+  "name": "bitcore-message-finite",
+  "version": "1.0.9",
+  "description": "Finite Messages for Bitcore-Finite",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "finite",
+    "bitcore-finite",
+    "message",
+    "signing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zy0n/bitcore-message-finite.git"
+  },
+  "dependencies": {
+    "bitcore-lib-finite": "zy0n/bitcore-lib-finite"
+  },
+  "devDependencies": {
+    "bitcore-build-finite": "zy0n/bitcore-build-finite",
+    "brfs": "^1.3.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "bitcore-message-finite",
+  "main": "./bitcore-message.min.js",
+  "version": "1.0.4",
+  "homepage": "https://github.com/zy0n/bitcore-message-finite",
+  "authors": [
+    "BitPay"
+  ],
+  "description": "Bitcoin Message Verification and Signing for Bitcore",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "btc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
